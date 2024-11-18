@@ -1,0 +1,350 @@
+body {
+    background-color: #000;
+}
+/* Header */
+#header {
+position: relative;
+width: 100%;
+height: 80px;
+background: #FFFFFF;
+}
+
+/* Contacto */
+
+position: relative;
+width: 111px;
+height: 29px;
+
+
+
+/* X Cerrar */
+
+position: relative;
+width: 28px;
+height: 28px;
+
+
+
+/* Boton contactar */
+
+box-sizing: border-box;
+
+position: relative;
+width: 170px;
+height: 60px;
+
+border: 1px solid #000000;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+
+/* Menú secundario B */
+
+position: relative;
+width: 1200px;
+height: 141px;
+
+background: #FFFFFF;
+
+
+/* Menú secundario */
+
+position: relative;
+width: 1200px;
+height: 141px;
+
+background: #FFFFFF;
+
+
+/* boton exposiciones abierto */
+
+position: relative;
+width: 363px;
+height: 126px;
+
+
+
+/* boton temas abierto */
+
+position: relative;
+width: 363px;
+height: 158px;
+
+
+
+/* boton etapas abierto */
+
+position: relative;
+width: 363px;
+height: 190px;
+
+
+
+/* Titulares menu principal */
+
+box-sizing: border-box;
+
+position: relative;
+width: 1200px;
+height: 120px;
+
+border: 1px solid #000000;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+
+/* Footer */
+
+position: relative;
+width: 1200px;
+height: 239px;
+
+background: #FFFFFF;
+
+
+/* Instagram */
+
+position: relative;
+width: 196.81px;
+height: 51.09px;
+
+
+
+/* Contactar */
+
+position: relative;
+width: 196.81px;
+height: 54.61px;
+
+
+
+/* Home */
+
+position: relative;
+width: 1200px;
+height: 900px;
+overflow-y: scroll;
+
+background: #FFFFFF;
+
+
+/* Home pinturas */
+
+position: relative;
+width: 1200px;
+height: 900px;
+overflow-y: scroll;
+
+background: #FFFFFF;
+
+
+/* Mensaje enviado */
+
+position: relative;
+width: 591px;
+height: 738px;
+
+
+
+/* Home grabados */
+
+position: relative;
+width: 1200px;
+height: 900px;
+overflow-y: scroll;
+
+background: #FFFFFF;
+
+
+/* Home bio */
+
+position: relative;
+width: 1200px;
+height: 900px;
+overflow-y: scroll;
+
+background: #FFFFFF;
+
+
+/* Menu Carrusel */
+
+box-sizing: border-box;
+
+position: relative;
+width: 1240px;
+height: 1278px;
+
+border: 1px dashed #9747FF;
+border-radius: 5px;
+
+
+/* Card pintura/hortensias */
+
+position: relative;
+width: 1184px;
+height: 800px;
+
+
+
+/* Card pintura/aperitivo */
+
+position: relative;
+width: 1184px;
+height: 800px;
+
+
+
+/* Card pintura/mariposa */
+
+position: relative;
+width: 1184px;
+height: 800px;
+
+
+
+/* Card pintura/sierra */
+
+position: relative;
+width: 1184px;
+height: 800px;
+
+
+
+/* Cascada Pinturas */
+
+position: relative;
+width: 1200px;
+height: 1408px;
+
+background: #FFFFFF;
+
+
+/* Card pintura */
+
+box-sizing: border-box;
+
+position: relative;
+width: 1244px;
+height: 860px;
+
+border: 1px dashed #9747FF;
+border-radius: 5px;
+
+
+/* saber más... */
+
+position: relative;
+width: 395px;
+height: 789px;
+
+/* Blanco nuclear */
+background: #FFFFFF;
+
+
+/* textos */
+
+position: relative;
+width: 315px;
+height: 434px;
+overflow-y: scroll;
+
+
+
+/* Card pintura movil */
+
+position: relative;
+width: 341.18px;
+height: 580px;
+
+
+
+/* Ventana Contacto */
+
+position: relative;
+width: 591px;
+height: 738px;
+
+
+
+/* Card pintura/grabado */
+
+position: relative;
+width: 1184px;
+height: 800px;
+
+
+
+/* Card pintura */
+
+position: relative;
+width: 1184px;
+height: 800px;
+
+
+
+/* Ok! */
+
+position: relative;
+width: 28px;
+height: 18px;
+
+
+
+/* Menú secundario C */
+
+box-sizing: border-box;
+
+position: relative;
+width: 1240px;
+height: 523px;
+
+border: 1px dashed #9747FF;
+border-radius: 5px;
+
+
+/* English */
+
+box-sizing: border-box;
+
+position: relative;
+width: 119px;
+height: 118px;
+
+border: 1px dashed #9747FF;
+border-radius: 5px;
+
+
+/* Pinturas */
+#pinturas {
+box-sizing: border-box;
+
+position: relative;
+width: 143px;
+height: 126px;
+
+border: 1px dashed #9747FF;
+border-radius: 5px;
+}
+
+/* Plumilla */
+#plumilla {
+box-sizing: border-box;
+
+position: relative;
+width: 141px;
+height: 118px;
+
+border: 1px dashed #9747FF;
+border-radius: 5px;
+}
+
+/* Bio */
+#bio {
+box-sizing: border-box;
+
+position: relative;
+width: 100px;
+height: 118px;
+
+border: 1px dashed #9747FF;
+border-radius: 5px;
+
+}
