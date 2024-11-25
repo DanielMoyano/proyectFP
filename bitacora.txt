@@ -1,2 +1,18 @@
 Comenzando con la extensión del proyecto y continuar con las tareas encomendadas por el resposable dticas, hacemos uso de git y github para gestionar el proyecto de este "4º" trimestre.
 En las pruebas creamos sin querer un fichero, que luego procedimos a borrar y agreagamos en dos commits diferentes los elementos gráficos que necesitaríamos para trabajar, por un lado: firma y una referencia del header y por otro los susodichos cuadros
+No obstante para hacer el push nos da problemas, al parecer han quitado el acceso mediante contraseña y hay que instalar un asistente de acceso:
+Y para ello primero necesitamos instalar el sdk de dotnet y el runtime:
+sudo snap install dotnet-runtime-90
+sudo snap install dotnet-sdk
+dotnet tool install -g git-credential-manager
+
+Tras intentarlo de dicha manera vuelve a fallar, por lo que procedemos a buscar por internet una manera alternativa
+https://www.youtube.com/watch?v=bvi37IbJXS4
+token github
+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
+
+comando para configurarlo:
+git remote set-url origin https://<token de github>@github.com/<nombre de usuario>/<nombre de repositorio>
+
+Aplicando el comando con nuestros datos quedó así:
+git remote set-url origin https://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@github.com/DanielMoyano/proyectFP
