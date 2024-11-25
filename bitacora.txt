@@ -1,0 +1,2 @@
+Comenzando con la extensión del proyecto y continuar con las tareas encomendadas por el resposable dticas, hacemos uso de git y github para gestionar el proyecto de este "4º" trimestre.
+En las pruebas creamos sin querer un fichero, que luego procedimos a borrar y agreagamos en dos commits diferentes los elementos gráficos que necesitaríamos para trabajar, por un lado: firma y una referencia del header y por otro los susodichos cuadros
