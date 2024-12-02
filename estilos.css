@@ -38,8 +38,6 @@ nav > div {
 
 footer {
     width:100%;
-    border: 1px solid black;
-    height:240px;
     position: relative;
 }
 footer > div {
@@ -49,62 +47,76 @@ footer > div {
     font-weight: 400;
     word-wrap: break-word;
 }
-#TyC {
-    width: 166.67px;
-    height: 72.82px;
-    left: 9%;
-    top: 86.23px;
-    position: absolute;
-    text-align: center;
-}
-#Privacy {
-    width: 166.67px;
-    height: 48.22px;
-    left: 27%;
-    top:86.23px;
-    position: absolute;
-    text-align: center;
-}
-
-#Seguridad {
-    width: 166.67px;
-    height: 72.82px;
-    left: 45%;
-    top: 86.23px;
-    position: absolute;
-    text-align: center;
-}
-
-#Cookies {
-    width: 166.67px;
-    height: 56.09px;
-    left: 63%;
-    top:86.23px;
-    position: absolute;
-    text-align: center;
-}
-
-#Language {
-    width: 166.67px;
-    height: 56.09px;
-    left: 81%;
-    top: 86.23px;
-    position: absolute;
-    text-align: center;
-}
-
 #line {
     width: 95%;
-    height: 0px;
     left: 30px;
     top: 40px;
-    position: absolute;
+    margin-bottom: 20vh;
+    position: relative;
     border: 1px #101010 solid
 }
+#miscGroup {
+    position: relative;
+    display:flex;
+    justify-content:space-evenly;
+    height:20vh;
+}
+#miscGroup > div {
+    position: relative;
+    text-align: center;
+}
+#contactGroup {
+    height: 14vh;
+    position: relative;
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+    flex-direction:row-reverse;
+}
+#mailContainer {
+    position:relative;
+    width: 15vw;
+    min-width: 110px;
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+    flex-direction:row-reverse;
+}
+#mailText {
+    position: relative;
+    text-align: center;
+    align-self:center;
+    display:flex;
+    align-items: center;
+}
+#placeholder {
+    position: relative;
+}
+#instaContainer {
+    width: 15vw;
+    height:32px;
+    position: relative;
+    min-width: 110px;
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+    flex-direction:row-reverse;
+}
+#instaWord {
+    position: relative;
+    text-align: center;
+    align-self:center;
+    display:flex;
+    align-items: center;
+}
+#instaIco {
+    position: relative;
+    height:100%;
 
+}
 #legend {
     margin: auto;
-    top: 205px;
+    margin-bottom:10px;
     position: relative;
     text-align: center;
 }
