@@ -22,3 +22,5 @@ A continuación proseguiremos ya con la codificación de la página como tal: te
 Con todo esto ya tendremos la versión preeliminar del footer, aún faltarían un par de retoques, pero estos lo dejaremos para los toques finales en caso de sobrarnos el tiempo
 
 Tras esto renombranos el html de prueba que usamos a footer para saber qué es el que contiene el código del footer
+
+Contrario que la versión final el header solo contará con las siguientes secciones: Firma, Pinturas, Plumilla, Bio y Contacto
