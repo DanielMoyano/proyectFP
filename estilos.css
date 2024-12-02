@@ -1,5 +1,5 @@
-body {
-   /* background-color: #000;*/
+html{
+   width: 100%;
 }
 /* Header */
 header {
@@ -119,4 +119,7 @@ footer > div {
     margin-bottom:10px;
     position: relative;
     text-align: center;
+}
+#muestra {
+    width:100%;
 }
