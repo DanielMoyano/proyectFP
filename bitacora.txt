@@ -24,3 +24,12 @@ Con todo esto ya tendremos la versión preeliminar del footer, aún faltarían u
 Tras esto renombranos el html de prueba que usamos a footer para saber qué es el que contiene el código del footer
 
 Contrario que la versión final el header solo contará con las siguientes secciones: Firma, Pinturas, Plumilla, Bio y Contacto
+
+La firma será un png para no tener que construirla innecesariamente con formas al tenerla ya hecha, y luego distribuiremos mediante position relative, float right y left, los distintos elementos del menú del header
+
+Primero cambiaremos el position absolute de la firma con la imagen a relative y le aplicaremos float left, una vez comprobado su correcto funcionamiento, sumamos el primer elemento del menú situado a la derecha mediante position relative de su respectivo div pero su float a right, tras comprobar que en principio no se descoloca terminamos de colocar las demás para en caso de ser necesario cambiar el orden de las mismas
+Tras varias pruebas para facilitar su colocación se meten todos los divs de navegación dentro de la etiqueta nav, para dar de un espacio generoso al menú de navegación, le daremos un vw de 25, veáse el 25% del viewport horizontal, por otro lado el alto lo dejaremos igual que la imagen siendo 52.25px
+
+Ahora procederemos a tratar de hacerlo algo más responsive evitando medidas fijas, mientras que las fuentes las dejaremos para retoques finales, una vez realizado quitamos los fondos de colores para comprobar dimensiones y preparamos el terreno para cuando implementemos la activación de las diferentes secciones ya que el color de la fuente deberá cambiar si está seleccionada esa sección, así mismo: Si pinturas, plumilla o bio tienen el ratón encima también las cambiaremos el color, aunque se podría hacer con javascript, en este caso lo realizaremos mediante css la propiedad hover, una vez aplicado el hover y un cursor default para los divs de dentro de nav, ya tenemos la versión preeliminar del header.
+--------
+Tras esto hacemos una limpieza rápida del css de estilos y nos ponemos con las mejoras para hacer más responsive el footer quitando y sustituyendo todas las medidas fijas posibles
