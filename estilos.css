@@ -1,5 +1,5 @@
 body {
-    background-color: #000;
+   /* background-color: #000;*/
 }
 /* Header */
 #header {
@@ -347,4 +347,77 @@ height: 118px;
 border: 1px dashed #9747FF;
 border-radius: 5px;
 
+}
+
+footer {
+    width:100%;
+    border: 1px solid black;
+    height:240px;
+    position: relative;
+}
+footer > div {
+    color: #101010;
+    font-size: 20px;
+    font-family: Libre Franklin;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+#TyC {
+    width: 166.67px;
+    height: 72.82px;
+    left: 9%;
+    top: 86.23px;
+    position: absolute;
+    text-align: center;
+}
+#Privacy {
+    width: 166.67px;
+    height: 48.22px;
+    left: 27%;
+    top:86.23px;
+    position: absolute;
+    text-align: center;
+}
+
+#Seguridad {
+    width: 166.67px;
+    height: 72.82px;
+    left: 45%;
+    top: 86.23px;
+    position: absolute;
+    text-align: center;
+}
+
+#Cookies {
+    width: 166.67px;
+    height: 56.09px;
+    left: 63%;
+    top:86.23px;
+    position: absolute;
+    text-align: center;
+}
+
+#Language {
+    width: 166.67px;
+    height: 56.09px;
+    left: 81%;
+    top: 86.23px;
+    position: absolute;
+    text-align: center;
+}
+
+#line {
+    width: 95%;
+    height: 0px;
+    left: 30px;
+    top: 40px;
+    position: absolute;
+    border: 1px #101010 solid
+}
+
+#legend {
+    margin: auto;
+    top: 205px;
+    position: relative;
+    text-align: center;
 }

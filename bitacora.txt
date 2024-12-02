@@ -16,3 +16,9 @@ git remote set-url origin https://<token de github>@github.com/<nombre de usuari
 
 Aplicando el comando con nuestros datos quedó así:
 git remote set-url origin https://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@github.com/DanielMoyano/proyectFP
+
+A continuación proseguiremos ya con la codificación de la página como tal: tendremos 3 partes: header (cabecera) dónde estará la firma de la artista, junto al menú de navegación, footer con varias opciones, contacto de correo, instagram y una leyenda para que no usen el contenido de la web cuando y cómo les de la gana
+-----
+Con todo esto ya tendremos la versión preeliminar del footer, aún faltarían un par de retoques, pero estos lo dejaremos para los toques finales en caso de sobrarnos el tiempo
+
+Tras esto renombranos el html de prueba que usamos a footer para saber qué es el que contiene el código del footer
