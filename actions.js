@@ -1,13 +1,15 @@
 let seleccion= [true,false,false];
 let pov = [document.getElementById("pinturas"),document.getElementById("plumilla"),document.getElementById("bio")];
-let imgRoutes = ["imgs/pinturas.jpg","imgs/plumilla.png","imgs/bio.png" ];
+let selected = ["Pinturas","Plumilla","Bio"];
+let imgRoutes = ["#f00","#0f0","#00f" ];
 habilitar(seleccion, pov);
 function change(n,toot) {
     for (let j=0; j< seleccion.length; j++) {
         if (toot==pov[j].id) {
             pov[j].className = "activo";
             seleccion[j] = true;
-            document.getElementById("muestra").src = imgRoutes[j];
+            document.getElementById("muestra").style.backgroundColor= imgRoutes[j];
+            document.getElementById("cartel").innerHTML = selected[j];
         }
         else {
             pov[j].className = "";
