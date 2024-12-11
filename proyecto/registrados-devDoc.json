@@ -1,0 +1,50 @@
+{
+  "version" : 7,
+  "kind" : "dev",
+  "author" : "Daniel Moyano Fajardo",
+  "details" : "Todas las llamadas de las funciones están implementadas sin efectos adversos intencionales",
+  "custom:experimental" : "Este es un contrato experimental",
+  "methods" :
+  {
+    "enterWhiteList(address, string, uint256, uint256)" :
+    {
+        "details" : "Función para el ingreso de usuarios a la lista de registrados",
+        "params" : 
+        {
+            "usuario" : "parámetro con la dirección del usuario y por lo tanto el índice dentro de la estructura",
+            "name" : "parámetro con el nombre de usuario que será registrado",
+            "points" : "parámetro con el nº de puntos que será guardado para el usuario",
+            "money" : "parámetro que lleva la cantidad de 'fichas' que posee el usuario"
+        }
+    },
+    "exitWhiteList(address)" :
+    {
+        "details" : "Función para la eliminación de usuarios de la lista de registrados",
+        "params" : 
+        {
+            "usuario" : "parámetro con la dirección del usuario y por lo tanto el índice dentro de la estructura"
+        }
+    },
+    "updateWl(address, string, uint256, uint256)" :
+    {
+        "details" : "Función para la modificación de usuarios de la lista de registrados",
+        "params" : 
+        {
+            "usuario" : "parámetro con la dirección del usuario y por lo tanto el índice dentro de la estructura",
+            "name" : "parámetro con el nuevo nombre de usuario que será registrado",
+            "points" : "parámetro con nº de puntos actualizado para el usuario",
+            "money" : "parámetro que lleva la cantidad de 'fichas' que actualmente posee el usuario"
+        }
+    },
+    "isOnWhiteList(address)" :
+    {
+        "details" : "Función para la búsqueda de un usuario en la lista de registrados",
+        "params" : 
+        {
+            "usuario" : "usuario parámetro con la dirección del usuario y por lo tanto el índice dentro de la estructura"
+        },
+        "return" : "devuelve si el usuario está presentre el nombre del mismo y si no, una cadena explicando su estado"
+    }
+  },
+  "title" : "fichero adicional para el simulador del juego veáse: registroTalador.sol"
+}

@@ -1,0 +1,48 @@
+/*ESTILOS A ETIQUETAS HTML*/
+html {
+    font-family: Pios;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+body {
+    margin: 0;
+    height: 100%;
+    background-color: rgb(4, 3, 22);
+    cursor: none;
+    user-select: none;
+}
+/*ESTILOS A CLASES*/
+.bienvenidor {
+    text-align: center;
+    margin: auto;
+    padding-top: 45vh;  
+    width: 80%;
+    user-select: none;
+}
+.lightning {
+    position: absolute;
+    width: 100%;
+}
+.original {
+    color:rgb(255, 255, 255);
+}
+.rays {
+    height: 100%;
+    width: 80%;
+    border-left: 1px solid rgb(255, 255, 255);
+    border-right: 1px solid rgb(255, 255, 255);
+    position: absolute;
+    left: 10vw;
+}
+.sombra {
+    color:rgb(255, 255, 255);
+    filter: blur(20px);
+    font-weight: bold;
+}
+/*ESTILOS A ID*/
+#modelo {
+    position: absolute;
+    width: 100%;
+    visibility: hidden;
+}

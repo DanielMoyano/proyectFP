@@ -1,0 +1,89 @@
+/*ESTILOS A ETIQUETAS HTML*/
+body {
+    font-family: Pios;
+    padding: 1vh;
+    background-color: rgb(4, 3, 22);
+    color:rgb(255, 255, 255);
+    cursor: none;
+    user-select: none;
+}
+p {
+    padding-left: 10px;
+    margin-bottom: -16px;
+}
+a {
+    padding: 10px;
+}
+/*ESTILOS A ETIQUETAS HTML: HIJOS DEL DIV CONTAINER*/
+#container > div {
+    border: 1px solid rgb(255, 255, 255);
+}
+/*ESTILOS A CLASES*/
+.abs {
+    position: absolute;
+}
+.flleft {
+    float: left;
+}
+.flright {
+    float: right;
+}
+.selected {
+    background-color: rgb(255,0,90);
+}
+/*ESTILOS A ID: DIV PADRES*/
+#container {
+    width: 70%;
+    margin: 0 auto;
+    height: 90vh;
+    display: flex;
+    justify-content: space-between;
+}
+#route {
+    height: 7vh;
+    margin: 0 auto;
+    border: 1px solid rgb(255, 255, 255);
+    justify-self: flex-end;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 70%;
+}
+#SO {
+    bottom: 10px;
+    right: 18vw;
+    background-color: rgb(4, 3, 22);
+}
+#supahContainer {
+    height: 97vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+#time {
+    background-color: rgb(4, 3, 22);
+    right: 18vw;
+    top: 5px;
+}
+/*MEDIA Queries*/
+/*
+@media screen and (max-height: px) {
+    #SO {
+
+    }
+    #time {
+
+    }
+}*/
+/*ESTILOS A ID: HIJOS DEL DIV CONTAINER*/
+#summary {
+    flex: 50%;
+    color:rgb(200,200,200);
+    padding: 10px;
+}
+#whatIs {
+    flex: 20%;
+}
+#whoIs {
+    flex: 30%;
+}

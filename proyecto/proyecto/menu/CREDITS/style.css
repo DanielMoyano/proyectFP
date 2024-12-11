@@ -1,0 +1,58 @@
+/*ESTILOS A ETIQUETAS HTML*/
+body {
+    height: 100%;
+    background-color: rgb(4, 3, 22);
+    color: rgb(255, 255, 255);
+    cursor: none;
+    user-select: none;
+}
+html {
+    height: 100%;
+    width: 100%;
+}
+
+p {
+    position: absolute;
+    bottom: 1px;
+}
+/*ESTILOS A ETIQUETAS HTML HIJAS*/
+/*HIJOS DE BODY*/
+body > h1,h2,h3 {
+    font-family: Pios;
+    margin-left: 2.5%;
+}
+h1 {
+    position: absolute;
+}
+/*ESTILOS A IDENTIFICADORES*/
+#contenedor {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+
+}
+#tester {
+    background-color: grey;
+    height: 50%;
+    width: 40%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
+}
+#SH {
+    background-color: rgb(72 15 5);
+    height: 50%;
+    width: 40%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    display: flex;
+    padding-top: 5%;
+    justify-content: center;
+
+}
+img {
+    height: 75%;
+}

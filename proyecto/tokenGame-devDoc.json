@@ -1,0 +1,89 @@
+{
+  "version" : 7,
+  "kind" : "dev",
+  "author" : "Daniel Moyano Fajardo",
+  "details" : "Todas las llamadas de las funciones están implementadas sin efectos adversos intencionales",
+  "custom:experimental" : "Este es un contrato experimental",
+  "methods" :
+  {
+    "NoMinimo(uint)" :
+    {
+        "details" : "error personificado",
+        "params" :  
+        {
+            "cantidadMinima" : "de creditos/tokens que debe ser movida "
+        }
+    },
+    "transferirDesde(address, address, uint)" :
+    {
+        "details" : "Función para la transferenca de tokens",
+        "params" :
+        {
+            "quienTransfiere" : "parámetro tipo dirección que lleva quien realiza la transferencia",
+            "aQuienSeTransfiere" : "parámetro tipo dirección que lleva a quién se realiza la transferencia",
+            "cantidadTokens" : "parámetro que lleva la cantidad de tokens transferidos"
+        },
+        "return" : 
+        {
+            "resultadoOperacion" : "si la operación se realiza correctamente devuelve siempre true"
+        }
+    },
+    "transferir(address, uint)" :
+    {
+        "details" : "Función para la transferenca de tokens rápida",
+        "params" :
+        {
+            "paraQuien" : "parámetro que lleva para quién es la transferencia",
+            "cantidadTokens" : "lleva la cantidad de tokens a transferir"
+        },
+        "return" : 
+        {
+            "resultadoOperacion" : "si la operación se realiza correctamente devuelve siempre true"
+        }
+    },
+    "aprobar(address, uint)" :
+    {
+        "details" : "Función para la aprobación de una transferencia de tokens",
+        "params" :
+        {
+            "gastador" : "parámetro con la dirección que va a realizar la aprobación del traspaso de tokens",
+            "cantidadTokens" : "la cantidad de tokens que se aprueba transferir"
+        },
+        "return" : 
+        {
+            "resultadoOperacion" : "si la operación se realiza correctamente devuelve siempre true"
+        }
+    },
+    "prestacion(address, address)" :
+    {
+        "details" : "Función para saber la cantidad de tokens que puede transferir el propietario",
+        "params" :
+        {
+            "propietarioToken" : "parametro del propietarario del token",
+            "gastador" : "dirección de quien solicita gastar los token "
+        },
+        "return" : 
+        {
+            "quedan" : "devuelve la cantidad de monedas restantes para poder dar"
+        }
+    },
+    "suministroTotal()" :
+    {
+        "details" : "Función para saber la cantidad de tokens que aún no han sido utilizados",
+        "return" : "devuelve la cantidad de monedas que aún no han sido usadas"
+    },
+    "cantidadDisponible(address)" :
+    {
+        "details" : "Función para saber la cantidad de tokens que posee la cuenta especificada",
+        "params" :
+        {
+            "propietarioToken" : "dirección de quien se quiere saber su número de tokens"
+        },
+        "return" : 
+        {
+            "quedan" : "devuelve la cantidad de tokens de la cuenta dada por parámetro"
+        }
+    }
+  },
+  "title" : "Un simulador del registro de puntuaciones de un juego"
+}

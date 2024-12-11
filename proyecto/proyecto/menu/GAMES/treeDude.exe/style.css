@@ -1,0 +1,171 @@
+/*ESTILOS A ETIQUETAS HTML*/
+body {
+    cursor: none;
+    user-select: none;
+    background-color: rgb(4, 3, 22);
+    color:rgb(255, 255, 255); 
+}
+/*ESTILOS A ETIQUETAS HTML DE HIJOS*/
+/*HIJOS DE containerDude*/
+#containerDude > div {
+    width:100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*HIJOS DE containerTree*/
+#containerTree > div {
+    width: 100%;
+    height: 200px;
+    font-size: large;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+/*HIJOS DE f0, f1, f2 Y f3*/
+#f0 > div, #f1 > div, #f2 > div, #f3 > div {
+    width: 100%;
+}
+/*ESTILOS A CLASES*/
+.char {
+    font-family: Consolas;
+    margin: -1px;
+}
+.spc {
+    font-family: Consolas;
+    margin: -1px;
+    opacity: 0;
+}
+.abs {
+    position: absolute;
+}
+.col0 {
+    text-align: right;
+}
+.col2 {
+    text-align: left;
+}
+/*ESTILOS A CLASES HIJAS*/
+/*CLASES HIJAS DE DIVS DE HIJOS DE containerTree*/
+#containerTree > div > .col1 {
+    border-style: none dashed;
+    border-color: rgb(255, 255, 255);
+    border-width: 2px;
+}
+/*ESTILOS A ID: DIV PADRE*/
+#supahContainer {
+    height: 97vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#icon {
+    font-family: Pios;
+    position: absolute;
+    margin-top:-15px;
+    right: 20px;
+}
+#msg {
+    padding-top: 15px;
+    display: none;
+}
+/*ESTILOS A ID: DIV HIJOS NVL1*/
+#container {
+    width: 70%;
+    margin: 0 auto;
+    position: relative;
+    height: 84vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    border: 1px solid rgb(255, 255, 255);
+}
+/*ESTILOS A ID: DIV HIJOS NVL2*/
+#containerDude {
+    width: 24%;
+    min-width: 313px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    position: absolute;
+}
+#containerlife {
+    display: flex;
+    width: 12%;
+    height: 20px;
+    min-width: 200px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(255, 255, 255);
+    position: absolute;
+    align-self: flex-start;
+    background-clip: content-box;
+    margin-top: 200px;
+    display: flex;
+    flex-flow: column;
+}
+#containerPoints {
+    font-family: Pios;
+    display: flex;
+    width: 6%;
+    height: 40px;
+    max-width: 60px;
+    min-width: 50px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(255, 255, 255);
+    position: absolute;
+    align-self: flex-start;
+    background-clip: content-box;
+    margin-top: 223px;
+}
+#containerTree {
+    min-width: 300px;
+    width: 17vw;
+    display: flex;
+    height: 100%;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-flow: column;
+}
+#hint {
+    font-family: Pios;
+    bottom: -1vh;
+    right: 3vw;
+    background-color: rgb(4, 3, 22);
+}
+#presentation {
+    left: 3vw;
+    font-family: Pios;
+    top: -1vh;
+    background-color: rgb(4, 3, 22);
+}
+/*ESTILOS A ID: DIV HIJOS NVL3*/
+/*HIJOS DE DIV containerlife*/
+#lifeBG, #Contenedorlife {
+    height: 80%;
+}
+#Contenedorlife {
+    background-color:rgb(122, 122, 122);
+    position: absolute;
+    left: 2px;
+    width: 50%;
+    align-self: flex-start;
+}
+#lifeBG {
+    background-color:rgb(44, 44, 44);
+    position: absolute;
+    width: 98%;
+    left: 2px;
+    align-self: flex-start;
+}
+/*ESTILOS A ID: DIV HIJOS NVL4*/
+/*HIJO de DIV b*/
+#retryHint {
+    font-family: Pios;
+    color:rgb(255, 255, 255);
+    background-color: rgb(4, 3, 22);
+    display: none;
+    width: max-content;
+}

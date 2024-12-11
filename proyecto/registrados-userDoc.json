@@ -1,0 +1,24 @@
+{
+  "version" : 7,
+  "kind" : "user",
+  "methods" :
+  {
+    "enterWhiteList(address, string, uint256, uint256)" :
+    {
+        "notice" : "Función para el ingreso de usuarios a la lista de registrados"
+    },
+    "exitWhiteList(address)" :
+    {
+        "notice" : "Función para la eliminación de usuarios de la lista de registrados"
+    },
+    "updateWl(address, string, uint256, uint256)" :
+    {
+        "notice" : "Función para la modificación de usuarios de la lista de registrados"
+    },
+    "isOnWhiteList(address)" :
+    {
+        "notice" : "Función para la búsqueda de un usuario en la lista de registrados"
+    }
+  },
+  "notice" : "El uso del contrato está destinado a simples simulaciones con fines educativos y académicos"
+}
