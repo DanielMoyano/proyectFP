@@ -18,6 +18,11 @@ function change(n,toot) {
     }
     habilitar(seleccion,pov);
 }
+$(document).on("keydown",(tecla) => {
+    if (tecla.keyCode == 08 ) {
+        window.location.replace("../index.html");
+    }
+})
 function habilitar(guide,elementos) {
     for (let k=0; k< guide.length; k++) {
         if (guide[k]) {
@@ -32,3 +37,40 @@ function habilitar(guide,elementos) {
         }
     }
 }
+document.getElementById("l").addEventListener("click", () => {
+    optionLeft();
+});
+document.getElementById("r").addEventListener("click", () => {
+    optionRight();
+});
+function optionLeft() {
+    let i=0;
+    for (SW = false; i< seleccion.length && SW == false;i++) {
+        if (seleccion[i]) {
+            if (i==0) {
+                i= seleccion.length -1;
+            }
+            else {
+                i--;
+            }
+            SW = true;
+        }
+    }
+    change(seleccion[i-1],pov[i-1].id);
+}
+function optionRight(arraySeleccionador, clases) {
+    let i= 0;
+    for (SW = false; i < seleccion.length && SW == false;i++) {
+        if (seleccion[i]) {
+            if (i==seleccion.length-1) {
+                i= 0;
+            }
+            else {
+                i++;
+            }
+            SW = true;
+        }
+    }
+    change(seleccion[i-1],pov[i-1].id);
+}
+

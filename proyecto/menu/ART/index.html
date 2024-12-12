@@ -1,18 +1,53 @@
 <!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset = "UTF-8">
-    <meta name = "viewport" content="width=device-width, initial-scale=1.0">
-    <title>ART</title>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="./estilos.css">
     <script src = "https://code.jquery.com/jquery-3.4.1.min.js" defer></script>
-    <link rel = "stylesheet" href = "../../assets/normalize.css/normalize.css">
-    <link rel = "stylesheet" href = "../../assets/createFont.css">
-    <link rel = "stylesheet" href = "style.css">
-    <script src="../aditionalScripts/draw.js" defer></script>
-    <script src="../aditionalScripts/pageNoFound.js" defer></script>
-    <script src = "../aditionalScripts/soundInitializer.js"defer></script>
+    <script src = "./actions.js" type = "text/javascript" defer></script>
+  </head>
+  <body>
+    <header>
+      <div id="firma"><img src="../../assets/imgs/firma abuela.png"></img></div>
+      <nav>
+        <div id="pinturas" class="activo">Pinturas</div>
+        <div id="plumilla">Plumilla</div>
+        <div id="bio">Bio</div>
+        <div id="contacto">Contacto</div>
+      </nav>
+    </header>
+    <main>
+      <div id="muestra">
+      <div id="fondoCartel">
+        <div id="autora">Elena Vizcaíno</div>
+        <div id="cartel">Pinturas</div>
+      </div>
+      <img class="arrows" src="../../assets/imgs/icoLeft.png" id="l"/>
+      <img class="arrows" src="../../assets/imgs/icoRight.png" id="r"/>
 
-</head>
-<body>
-</body>
+    </div>
+    </main>
+    <footer>
+      <div id="line"></div>
+      <div id="miscGroup">
+        <div id="TyC">Términos y<br>condiciones</div>
+        <div id="Privacy">Privacidad</div>
+        <div id="Seguridad">Seguridad</div>
+        <div id="Cookies">Ajuste de cookies</div>
+        <div id="Language">English</div>
+      </div>
+      <div id="contactGroup">
+        <div id="mailContainer">
+          <div id="mailText">Contactar</div>
+          <img id="placeholder" src="https://via.placeholder.com/32x32"/>
+        </div>
+        <div id="instaContainer">
+          <div id="instaWord">Instagram</div>
+          <img id="instaIco" src="../../assets/imgs/iconoInstagram.png"/>
+        </div>
+      </div>
+      <div id="legend">El contenido de esta web no puede ser utilizado en ningún caso salvo permiso expreso del dueño</div>
+    </footer>
+  </body>
 </html>
