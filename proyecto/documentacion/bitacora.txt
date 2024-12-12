@@ -44,3 +44,5 @@ Ahora, para la entrega del proyecto cambiaremos las pinturas temporalmente y las
 - fondo azul bio
 
 Antes de dar la funcionalidad a las flechas, unificaremos la parte anterior del proyecto junto lo nuevo y le daremos su directorio. Además procedemos a borrar los diferentes ficheros de código sucio
+-----------------------
+Tras esto, procedemos a fusionar el proyecto pasado con el actual, al ser el patrocinador un artista se decidió guardar en el fichero de arte, tras esto agregamos la funcionalidad de las fechas y para finalizar procedemos con la limpieza del código

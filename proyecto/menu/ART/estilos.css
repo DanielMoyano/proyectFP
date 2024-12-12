@@ -1,23 +1,12 @@
+/*ETIQUETAS GLOBALES*/
 html{
    width: 100%;
 }
-/* Header */
 header {
     position: relative;
     width: 100%;
     height: 15vh;
 }
-header > div, nav {
-    height:100%;
-}
-#firma {
-    position: relative;
-    float: left;
-}
-#firma > img {
-    height:100%;
-}
-
 nav{
     position: relative;
     width: 30vw;
@@ -26,19 +15,16 @@ nav{
     justify-content: space-evenly;
     align-items: center;
 }
-nav > div {
-    cursor: default;
-}
-.activo {
-    color: #BA987C;
-}
-#pinturas:hover, #plumilla:hover, #bio:hover{
-    color: #BA987C;
-}
-
 footer {
     width:100%;
     position: relative;
+}
+/*ETIQUETAS GLOBALES HIJOS*/
+header > div, nav {
+    height:100%;
+}
+nav > div {
+    cursor: default;
 }
 footer > div {
     color: #101010;
@@ -46,6 +32,27 @@ footer > div {
     font-family: Libre Franklin;
     font-weight: 400;
     word-wrap: break-word;
+}
+/*CLASES*/
+.activo {
+    color: #BA987C;
+}
+.arrows {
+    width: 18px;
+    height: 40px;
+    position:absolute;
+    bottom: 40px;
+}
+/*IDs*/
+#firma {
+    position: relative;
+    float: left;
+}
+#firma > img {
+    height:100%;
+}
+#pinturas:hover, #plumilla:hover, #bio:hover{
+    color: #BA987C;
 }
 #line {
     width: 95%;
@@ -60,10 +67,6 @@ footer > div {
     display:flex;
     justify-content:space-evenly;
     height:20vh;
-}
-#miscGroup > div {
-    position: relative;
-    text-align: center;
 }
 #contactGroup {
     height: 14vh;
@@ -112,7 +115,6 @@ footer > div {
 #instaIco {
     position: relative;
     height:100%;
-
 }
 #legend {
     margin: auto;
@@ -155,15 +157,14 @@ footer > div {
     font-weight: 400;
     word-wrap:break-word;
 }
-.arrows {
-    width: 18px;
-    height: 40px;
-    position:absolute;
-    bottom: 40px;
-}
 #l {
     left:10px;
 }
 #r {
     right:10px;
+}
+/*HIJOS de IDs*/
+#miscGroup > div {
+    position: relative;
+    text-align: center;
 }
